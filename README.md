@@ -6,4 +6,4 @@ just test repository
 
 环境配置流程，参考http://www.expressjs.com.cn/starter/installing.html
 
-配置了http-server   快速搭建服务
+配置了http-server  快速搭建服务
