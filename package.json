@@ -1,0 +1,23 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "just test repository",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangguoguohou/test-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangguoguohou/test-project/issues"
+  },
+  "homepage": "https://github.com/wangguoguohou/test-project#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http-server": "^0.9.0"
+  }
+}
