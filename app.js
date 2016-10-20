@@ -10,19 +10,20 @@ var app = express();
   // res.send('Hello from B!');
 // });
 
-app.get('/', function (req, res, next) {
+app.all('/', function (req, res, next) {
 	console.log('response will be sent by the next function ...');
 	next();
-}, function (req, res) {
+},function (req, res) {
 	res.send('Hello from B!');
 });
 
-app.get('/', function (req, res, next) {
-	res.send('Hello from B!');//两个回调写两个send会报错
-  next();
+app.get('/index', function (req, res,next) {
+	next();
 }, function (req, res) {
-  res.send('Hello from B!');
+	res.send('Hello from Accessing!');
 });
+
+
 
 
 
